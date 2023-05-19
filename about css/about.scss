@@ -1,0 +1,139 @@
+/* about start */
+.about{
+    margin-bottom: 170px;
+}
+.about__bg{
+  background-image: url("../about\ img/Bitmap.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about__info{
+  padding: 200px 0 300px 90px;
+  color: #fff;
+}
+.about__title{
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 40px;
+  margin-bottom: 24px;
+}
+.about__describe{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+}
+/* about end */
+
+/* commitment start */
+.commitment{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  align-items: center;
+  margin-bottom: 200px;
+}
+.commitment__title{
+  font-family: 'Fraunces';
+  margin-bottom: 32px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+}
+.commitment__describe{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+/* commitment end */
+
+/* quality start */
+.quality{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    align-items: center;
+    background-color: #1b1f1f;
+    position: relative;
+    padding: 40px 0 160px 0;
+    margin-bottom: 100px;
+    height: 550px;
+}
+.quality__info{
+    padding-top: 60px;
+}
+.quality__title{
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.quality__describe{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+}
+.quality__pic{
+    position:absolute;
+    top: -80px;
+    right: 60px;
+}
+
+/* quality end */
+
+/* states start */
+#states{
+  margin-bottom: 100px;
+}
+.state__title{
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  margin-bottom: 80px;
+  text-align: center;
+}
+.states__describe{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+.states__list{
+  list-style: none;
+}
+.states__pic{
+  margin-bottom: 45px;
+}
+.states__name{
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  margin-bottom: 24px;
+}
+.state__info{
+  list-style: none;
+}
+.state__info-title{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+/* states end */

@@ -1,0 +1,277 @@
+/* plan start */
+#plan {
+  margin-bottom: 150px;
+}
+
+.plan {
+  background-image: url("../img/plan.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 220px 0;
+}
+
+.plan__info {
+  padding-left: 60px;
+}
+
+.plan__title {
+  color: #fff;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  margin-bottom: 32px;
+}
+
+.plan__describe {
+  color: #FEFCF7;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding-right: 900px;
+}
+
+/* plan end */
+/* works start */
+.works {
+  padding-top: 70px;
+  margin-bottom: 150px;
+}
+
+.works__bg {
+  background-color: rgb(27, 30, 32);
+  padding-top: 50px;
+}
+
+.direction__list {
+  background-image: url("../img/Path.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  list-style: none;
+  display: flex;
+  margin-bottom: 100px;
+  margin-left: 50px;
+}
+
+.works__street-list {
+  padding-left: 50px;
+}
+
+.direction__item {
+  margin-right: 340px;
+}
+
+.works__street-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+  margin-bottom: 50px;
+}
+
+.works__street-item {
+  padding: 10px 30px;
+}
+
+.street__number {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FDD6BA;
+  margin-bottom: 38px;
+}
+
+.street__title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #fff;
+  margin-bottom: 42px;
+}
+
+.street__describe {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  margin-bottom: 64px;
+  padding-right: 130px;
+}
+
+/* works end */
+/* types start */
+#types {
+  margin-bottom: 150px;
+}
+
+.types {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  text-align: center;
+}
+
+.types__coffee {
+  list-style: none;
+  text-align: center;
+}
+
+.types__bigtitle {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888F;
+  margin-bottom: 50px;
+  margin-right: 150px;
+  text-align: right;
+}
+
+.types__coffee-item {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(51, 61, 75, 0.6352941176);
+  border-bottom: 1px solid rgba(160, 160, 160, 0.838);
+  margin-bottom: 20px;
+  padding-bottom: 7px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.types__coffee-item:hover {
+  color: #333D4B;
+}
+
+.types__coffee-item:last-child {
+  color: #333D4B;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 130px;
+}
+
+.type__drink-title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888F;
+  margin-bottom: 70px;
+}
+
+.box__coffee {
+  background: #F4F1EB;
+  padding: 32px 28px 84px 34px;
+  border-radius: 7px;
+  margin-left: 30px;
+  text-align: left;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+.box__coffee:hover {
+  background: #0E8784;
+}
+
+.box__coffee:hover .box__coffee-title {
+  color: #fff;
+}
+
+.box__coffee-title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 24px;
+  color: #333D4B;
+}
+
+.box__coffee:hover .box__coffee-describe {
+  color: #F4F1EB;
+}
+
+.box__coffee-describe {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  padding-right: 60px;
+}
+
+/* summary start */
+.summary {
+  text-align: left;
+  margin-bottom: 80px;
+}
+
+.summary__bg {
+  background-color: #333D4B;
+  padding: 31px 114px 80px 64px;
+}
+
+.summary:hover .summary__info-title {
+  color: #fff;
+  opacity: 1;
+}
+
+.summary__info-title {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  transition: 0.7s;
+}
+
+.summary__info-describe {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  color: #fff;
+}
+
+.summary__btn {
+  padding: 16px 35px;
+  background: #0E8784;
+  border-radius: 6px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FEFCF7;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  transition: 0.6s;
+}
+
+.summary__btn:hover {
+  background: #26adaa;
+}
+
+/* types end *//*# sourceMappingURL=plan.css.map */
