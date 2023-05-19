@@ -7,7 +7,7 @@ shaxzod.addEventListener('click', function()
 {
   elHeaderMenu.classList.toggle('show');
   if (count == 0){
-    shaxzod.style.color = 'red';
+    shaxzod.style.color = 'white';
     elIcon.className = "bx bx-x";
     count++
   }else {
